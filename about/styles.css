@@ -1,0 +1,170 @@
+
+header {
+	background-color: #FFFFFF;
+}
+
+nav{
+	position: fixed;
+	top: 0rem;
+	width: 100%;
+	background-color: white;
+	margin: 0rem;
+}
+
+.nav-row {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-decoration: none;
+	list-style: none;
+	font-size: 1.5rem;
+	font-family: "Roboto";
+	padding: 1.5rem 2rem 1.5rem 2rem;
+	width: 26rem;
+  margin: auto;
+	text-transform: uppercase;
+}
+
+.logo-black {
+	content: url("/Users/jordangregory/week-one-project/images/bent-creek-logo.png");
+	width: 3rem;
+	position: absolute;
+	padding: 1rem;
+}
+
+.homeLink{
+	color: black;
+}
+
+.aboutLink {
+	color: #968772;
+}
+
+.newsletterLink {
+	color: black;
+}
+
+ul {
+	padding: 1rem;
+}
+
+body {
+background-color: #F2F1E8;
+margin: auto;
+font-family: "Merriweather";
+}
+
+.container {
+	padding: 50px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 5rem;
+	padding-top: 3rem;
+	font-weight: normal;
+}
+
+/*.first-paragraph{
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+	padding-left: 50px;
+	padding-right: 50px;
+	line-height: 3rem;
+
+}*/
+
+
+blockquote{
+	border-left: 2px 2px solid #968772;
+	padding: 0rem 29rem 0rem 11rem;
+}
+
+/*.second-paragraph {
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+	padding-left: 12rem;
+	padding-right: 12rem;
+	line-height: 3rem;
+}
+
+.third-paragraph {
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+	padding-left: 12rem;
+	padding-right: 12rem;
+	line-height: 3rem;
+}*/
+
+
+
+/*aside{
+	display:flex;
+	flex: 2;
+	padding: 20px;
+}*/
+
+table {
+	margin: 2rem 4rem 2rem 4rem;
+	border-collapse: collapse;
+	margin-bottom: 3rem;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+	padding-left: 12rem;
+	padding-right: 12rem;
+	line-height: 3rem;
+}
+
+table, tbody, td{
+	border: 1px solid black;
+	text-align: center;
+}
+
+td{
+	padding: 1rem;
+}
+.birdhouse-pic{
+	background-image: url("../images/birdhouse.jpg");
+	float: left;
+	height: 100px;
+	max-width: 130px;
+	background-size: cover;
+}
+
+#birdy {
+	height: 8rem;
+  width: 32rem;
+	margin-right: 1rem;
+}
+
+.grow {
+	background-image: url("../images/background-3.jpg");
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	text-align: center;
+	align-items: center;
+	color: white;
+	padding: center;
+}
+
+.centerTheWords {
+	padding: 10rem;
+	font-size: 4rem;
+}
+
+#grow-pic{
+  height: 25rem;
+	width: auto;
+}
+
+footer {
+	background-color: #2B2F26;
+	color: white;
+	padding: 1rem;
+	font-family: "Merriweather";
+	margin: 0rem;
+}

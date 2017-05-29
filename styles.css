@@ -1,0 +1,149 @@
+
+header {
+	background-color: #FFFFFF;
+}
+
+nav{
+	position: fixed;
+	top: 0rem;
+	width: 100%;
+	background-color: white;
+}
+
+.nav-row {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-decoration: none;
+	list-style: none;
+	font-size: 1.5rem;
+	font-family: "Roboto";
+	padding: 1.5rem 2rem 1.5rem 2rem;
+	width: 26rem;
+  margin: auto;
+	text-transform: uppercase;
+}
+
+.logo-black {
+	content: url("/Users/jordangregory/week-one-project/images/bent-creek-logo.png");
+	width: 3rem;
+	position: absolute;
+	padding: 1rem;
+}
+
+.homeLink{
+	color: #968772;
+}
+
+.aboutLink {
+	color: black;
+}
+
+.newsletterLink {
+	color: black;
+}
+
+ul {
+	padding: 1rem;
+}
+
+.title {
+	text-align: center;
+	font-size: 4rem;
+	font-family: "Merriweather";
+	margin-bottom: 0rem;
+	margin-top: 8rem;
+}
+.slogan {
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: "Merriweather";
+	margin-top: 0rem ;
+}
+
+body {
+background-color: #F2F1E8;
+margin: auto;
+}
+
+.top-row-images {
+	display: flex;
+}
+
+.second-row-images {
+	display: flex;
+}
+
+.top-row-images .img{
+	height: 400px;
+}
+
+.second-row-images .img{
+	height: 300px;
+}
+
+.img {
+	margin: 10px;
+	display: flex;
+	align-items: flex-end;
+
+}
+
+#picture-1 {
+	background: url("images/product-1.jpg") no-repeat center center;
+	background-size: cover;
+	flex: 2;
+}
+
+#picture-2 {
+	background: url("images/product-2.jpg") no-repeat center center;
+	background-size: cover;
+	flex: 1;
+}
+
+#picture-3 {
+	background: url("images/product-3.jpg") no-repeat center center;
+	background-size: cover;
+	flex: 1;
+}
+
+#picture-4 {
+	background: url("images/product-4.jpg") no-repeat center center;
+	background-size: cover;
+	flex: 1;
+}
+
+#picture-5 {
+	background: url("images/product-5.jpg") no-repeat center center;
+	background-size: cover;
+	flex: 1;
+}
+
+#picture-6 {
+	background: url("images/product-6.jpg") no-repeat center center;
+	background-size: cover;
+	flex: 2;
+}
+
+#picture-7 {
+	background: url("images/product-7.jpg") no-repeat center center;
+	background-size: cover;
+	flex: 1;
+}
+
+.img-caption {
+	background-color: #2B2F26;
+	color: white;
+	display: inline-block;
+	padding: 14px;
+	position: relative;
+	font-family: "Merriweather";
+}
+
+
+footer {
+	background-color: #2B2F26;
+	color: white;
+	padding: 1rem;
+	font-family: "Merriweather";
+}
