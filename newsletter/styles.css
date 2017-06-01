@@ -1,14 +1,16 @@
 
 header {
 	background-color: #FFFFFF;
+	height: 76px;
 }
 
 nav{
-	position: fixed;
+	position: absolute;
 	top: 0rem;
 	width: 100%;
 	background-color: white;
-	margin: 0rem;
+	margin: 0;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .25);
 }
 
 .nav-row {
@@ -26,19 +28,20 @@ nav{
 }
 
 .logo-black {
-	content: url("/Users/jordangregory/week-one-project/images/bent-creek-logo.png");
+	content: url("../images/bent-creek-logo.png");
 	width: 3rem;
 	position: absolute;
 	padding: 1rem;
 }
 
 body{
-	background-image: url("/Users/jordangregory/week-one-project/images/background-2.jpg");
+	background-image: url("../images/background-2.jpg");
 	position: static;
 	background-repeat: no repeat;
 	background-size: cover;
 	width: 100%;
-	
+	min-height: 100vh;
+	margin: 0;
 }
 
 .homeLink{
@@ -53,39 +56,77 @@ body{
 	color: #968772;
 }
 
-fieldset{
+.container {
 	position: relative;
-	top: 1rem;
-	padding: 1rem 2rem 1rem 2rem;
-	margin: 7rem 26rem 4rem 25rem;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.form {
+	position: absolute;
+	height: 280px;
+	width: 660px;
 	background-color: white;
-	font-family: "Merriweather";	
-}
-
-.sign-up {
+	padding: 20px 20px;
+	font-family: "Merriweather";
 	text-align: center;
+	font-size: 20px;
 }
 
-#name {
+fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+.sign-up h2,h3 {
+	text-align: center;
+	font-weight: 300;
+}
+
+.fields {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#nameInput {
   border: none;
   border-bottom: 1px solid #968772;
 	width: 100%;
 	text-align: left;
+	font-size: 21px;
 }
 
-#email {
+#emailInput {
   border: none;
   border-bottom: 1px solid #968772;
 	width: 100%;
+	font-size: 21px;
 }
 
 
-#submit_button{
+#signupButton{
   background: #968772;
-  color: white;
+	color: white;
   padding: 15px;
 	font-size: 0.9em;
   border: none;
   outline: none;
-	margin: 2rem 0rem 1rem 10rem;
+	margin: 20px auto;
+}
+
+.nav-item a{
+	color: black;
+}
+
+.nav-item a.active {
+	color: #968772;
+}
+.nav-item a:hover {
+	color: #CD5D67;
+}
+
+* {
+	transition: all 1s;
 }

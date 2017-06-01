@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
-	<link href="/Users/jordangregory/week-one-project/newsletter/styles.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+	<link href="../images/favicon.png" rel="icon" type="image/png">
 	<title>Bent Creek Ceramics - Newsletter</title>
 </head>
 
@@ -17,39 +18,36 @@
 			<div class="logo-black">
 			</div>
 			<ul class="nav-row">
-				<li class "nav-item">
-					<a class="homeLink" href="/Users/jordangregory/week-one-project/index.html">Home</a>
+				<li class="nav-item">
+					<a class="homeLink" href="../index.html">Home</a>
 				</li>
-				<li class "nav-item">
-					<a class="aboutLink" href="/Users/jordangregory/week-one-project/about/index.html">About</a>
+				<li class="nav-item">
+					<a class="aboutLink" href="../about/index.html">About</a>
 				</li>
-				<li class "nav-item">
-					<a class="newsletterLink" href="/Users/jordangregory/week-one-project/newsletter/index.html">Newsletter</a>
+				<li class="nav-item">
+					<a class="newsletterLink active" href="index.html">Newsletter</a>
 				</li>
 			</ul>
 		</nav>
 	</header>
-
-	<form action="#">
-		<fieldset>
+	<div class="container">
+		<form class="form" action="#">
 			<div class="sign-up">
-				<p>Sign Up for Our Weekly Newsletter
-				</p>
-				<p>Stay up to date with events, activities, news and specials.
-				</p>
+				<h2>Sign Up for Our Weekly Newsletter
+				</h2>
+				<h3>Stay up to date with events, activities, news and specials.
+				</h3>
 			</div>
-			<div>
+			<div class="fields">
 				<label for="first_name"></label>
-				<input type="text" name="name" id="name" placeholder="Name">
-			</div>
-			<div class="name">
+				<input type="text" name="name" id="nameInput" placeholder="Name">
+
 				<label for="email address"></label>
-				<input type="text" name="email" id="email" placeholder="Email">
+				<input type="text" name="email" id="emailInput" placeholder="Email">
 			</div>
-			<div class="submit_container">
-				<input type="submit" id="submit_button" value="Submit">
-			</div>
-	</form>
+			<input type="submit" id="signupButton" value="Submit">
+		</form>
+	</div>
 
 	<script type="text/javascript">
 		var nameInput = document.getElementById('nameInput');

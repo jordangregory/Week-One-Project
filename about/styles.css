@@ -1,6 +1,7 @@
 
 header {
-	background-color: #FFFFFF;
+	background-color: #FFF;
+	
 }
 
 nav{
@@ -9,6 +10,7 @@ nav{
 	width: 100%;
 	background-color: white;
 	margin: 0rem;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .25);
 }
 
 .nav-row {
@@ -23,16 +25,19 @@ nav{
 	width: 26rem;
   margin: auto;
 	text-transform: uppercase;
+	
 }
 
 .logo-black {
-	content: url("/Users/jordangregory/week-one-project/images/bent-creek-logo.png");
+	content: url("../images/bent-creek-logo.png");
 	width: 3rem;
 	position: absolute;
 	padding: 1rem;
 }
 
-.homeLink{
+
+
+/*.homeLink{
 	color: black;
 }
 
@@ -42,7 +47,9 @@ nav{
 
 .newsletterLink {
 	color: black;
-}
+}*/
+
+
 
 ul {
 	padding: 1rem;
@@ -55,7 +62,12 @@ font-family: "Merriweather";
 }
 
 .container {
-	padding: 50px;
+	padding: 10px 150px;
+}
+
+.paragraph {
+	line-height: 3;
+	margin: 0;
 }
 
 h1 {
@@ -65,44 +77,39 @@ h1 {
 	font-weight: normal;
 }
 
-/*.first-paragraph{
-	padding-top: 0rem;
-	padding-bottom: 0rem;
-	padding-left: 50px;
-	padding-right: 50px;
-	line-height: 3rem;
+.section {
+	padding: 20px 50px;
+}
 
-}*/
-
+.first-section{
+	min-height: 150px;
+}
 
 blockquote{
-	border-left: 2px 2px solid #968772;
-	padding: 0rem 29rem 0rem 11rem;
+	border-left: 2px solid #968772;
+	padding: 25px 50px 25px 50px;
+	margin: 0;
+	margin-left: 50px;
+	font-style: italic;
 }
 
-/*.second-paragraph {
-	padding-top: 0rem;
-	padding-bottom: 0rem;
-	padding-left: 12rem;
-	padding-right: 12rem;
-	line-height: 3rem;
+.paragraph-container {
+	display: flex;
 }
 
-.third-paragraph {
-	padding-top: 0rem;
-	padding-bottom: 0rem;
-	padding-left: 12rem;
-	padding-right: 12rem;
-	line-height: 3rem;
-}*/
-
-
-
-/*aside{
-	display:flex;
-	flex: 2;
+aside {
 	padding: 20px;
-}*/
+}
+
+aside p {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+aside img {
+	height: 120px;
+	width: 170px;
+}
 
 table {
 	margin: 2rem 4rem 2rem 4rem;
@@ -120,21 +127,20 @@ table, tbody, td{
 	text-align: center;
 }
 
+.different-row {
+	background-color: #F2EADC;
+}
+
 td{
 	padding: 1rem;
 }
 .birdhouse-pic{
-	background-image: url("../images/birdhouse.jpg");
 	float: left;
-	height: 100px;
-	max-width: 130px;
+	padding: 10px;
+	padding-left: 0;
+	height: 120px;
+	width: 150px;
 	background-size: cover;
-}
-
-#birdy {
-	height: 8rem;
-  width: 32rem;
-	margin-right: 1rem;
 }
 
 .grow {
@@ -167,4 +173,18 @@ footer {
 	padding: 1rem;
 	font-family: "Merriweather";
 	margin: 0rem;
+}
+.nav-item a{
+	color: black;
+}
+
+.nav-item a.active {
+	color: #968772;
+}
+.nav-item a:hover {
+	color: #CD5D67;
+}
+
+* {
+	transition: all 1s;
 }
